@@ -7,7 +7,7 @@ import spotipy.util as util
 from json.decoder import JSONDecodeError
 import billboard
 import tweepy as tp
-username='12101891873'
+username=''
 #get username from terminal
 #edit
 
@@ -62,11 +62,10 @@ def TrackList(spotifyObject):
 def main():
     print("g")
 #----------Tweeter keys
-    consumer_key='fiW4gwDBWlhllWcoZCESVzgdu'
-    consumer_secret='kQX17AmwWtYVCO3qhwBTh8uBdI6CBgyQMrLFSL6vIm8ITeQhIo'
-    access_token='990970733005361152-oxDxt0JFUTntHVeKo83haNLugZYbo2H'
-    access_secret='GuM3EDKRboC7PNmxopQB83dokCHLbdPli7aKLV9hBjmI4'
-
+    consumer_key=''
+    consumer_secret=''
+    access_token=''
+    access_secret=''
     auth = tp.OAuthHandler(consumer_key,consumer_secret)
     auth.set_access_token(access_token,access_secret)
     api = tp.API(auth)
